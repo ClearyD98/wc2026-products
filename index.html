@@ -3,105 +3,87 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>World Cup 2026 Wall Chart — Instant Download</title>
+<title>World Cup 2026 Products — Wall Chart, Predictor, Betting Guide</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a1628; color: #e8e8e8; min-height: 100vh; }
-  .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
-  .hero { text-align: center; padding: 60px 0; }
-  .hero h1 { font-size: 2.5rem; color: #c9a84c; margin-bottom: 10px; }
-  .hero p { color: #8ab4d8; font-size: 1.1rem; }
-  .product-img { width: 100%; max-width: 600px; border-radius: 12px; margin: 30px auto; display: block; box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
-  .price-box { background: linear-gradient(135deg, #1a3a5c, #0d2137); border: 2px solid #c9a84c; border-radius: 16px; padding: 30px; text-align: center; margin: 30px 0; }
-  .price { font-size: 3rem; color: #c9a84c; font-weight: 900; }
-  .price sub { font-size: 1rem; color: #8ab4d8; }
-  .buy-btn { display: inline-block; background: #c9a84c; color: #0a1628; font-size: 1.3rem; font-weight: 700; padding: 16px 48px; border-radius: 12px; text-decoration: none; margin: 20px 0; transition: transform 0.2s; }
+  .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+  .hero { text-align: center; padding: 40px 0 20px; }
+  .hero h1 { font-size: 2.2rem; color: #c9a84c; margin-bottom: 8px; }
+  .hero p { color: #8ab4d8; font-size: 1.05rem; }
+  .urgency { background: #c9a84c; color: #0a1628; text-align: center; padding: 10px; border-radius: 8px; margin: 15px 0; font-weight: 700; font-size: 1.1rem; }
+  .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin: 30px 0; }
+  .product-card { background: linear-gradient(135deg, #1a3a5c, #0d2137); border: 1px solid #2a4a6c; border-radius: 16px; padding: 25px; text-align: center; transition: transform 0.2s, border-color 0.2s; }
+  .product-card:hover { transform: translateY(-4px); border-color: #c9a84c; }
+  .product-card h3 { color: #c9a84c; font-size: 1.2rem; margin-bottom: 5px; }
+  .product-card .subtitle { color: #8ab4d8; font-size: 0.85rem; margin-bottom: 12px; }
+  .product-card .price { font-size: 2.2rem; color: #c9a84c; font-weight: 900; margin: 10px 0; }
+  .product-card .desc { color: #7a9aba; font-size: 0.85rem; line-height: 1.4; margin-bottom: 15px; min-height: 60px; }
+  .buy-btn { display: inline-block; background: #c9a84c; color: #0a1628; font-weight: 700; padding: 12px 28px; border-radius: 10px; text-decoration: none; font-size: 1rem; transition: transform 0.2s; }
   .buy-btn:hover { transform: scale(1.05); }
-  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0; }
-  .feature { background: rgba(255,255,255,0.05); border-radius: 12px; padding: 20px; text-align: center; }
-  .feature .icon { font-size: 2rem; margin-bottom: 10px; }
-  .feature h3 { color: #c9a84c; margin-bottom: 8px; }
-  .feature p { font-size: 0.9rem; color: #8ab4d8; }
-  .how-it-works { background: rgba(255,255,255,0.03); border-radius: 12px; padding: 30px; margin: 30px 0; }
-  .how-it-works h2 { color: #c9a84c; margin-bottom: 20px; text-align: center; }
-  .step { display: flex; gap: 15px; margin: 15px 0; align-items: flex-start; }
-  .step-num { background: #c9a84c; color: #0a1628; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; }
-  .step-text { color: #8ab4d8; line-height: 1.5; }
-  .paypal-section { text-align: center; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 12px; margin: 20px 0; }
-  .paypal-section code { background: #1a3a5c; padding: 4px 12px; border-radius: 6px; color: #c9a84c; font-size: 1rem; }
-  .preview-box { margin: 30px 0; text-align: center; }
-  .preview-box img { max-width: 100%; border-radius: 8px; }
-  .guarantee { text-align: center; color: #5a7a9a; font-size: 0.85rem; padding: 15px; }
+  .bundle-card { grid-column: 1 / -1; background: linear-gradient(135deg, #2a1a0a, #1a3a5c); border: 2px solid #c9a84c; padding: 35px; }
+  .bundle-card h3 { font-size: 1.5rem; }
+  .bundle-card .price { font-size: 2.8rem; }
+  .bundle-card .savings { color: #4ade80; font-size: 1rem; margin: 5px 0; }
+  .guarantee { text-align: center; color: #5a7a9a; font-size: 0.8rem; padding: 20px; }
+  .guarantee a { color: #8ab4d8; }
 </style>
 </head>
 <body>
 <div class="container">
   <div class="hero">
-    <h1>World Cup 2026 Wall Chart</h1>
-    <p>Printable Tournament Bracket & Group Stages — Instant PDF Download</p>
+    <h1>⚽ World Cup 2026</h1>
+    <p>Digital products for the ultimate tournament experience. Instant download, print at home.</p>
   </div>
   
-  <img src="product-mockup.png" alt="World Cup 2026 Wall Chart" class="product-img">
-  
-  <div class="price-box">
-    <div class="price">€4.99</div>
-    <p style="color:#8ab4d8;margin-top:8px">One-time payment • Instant download • Print at home</p>
-    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=info@dylancleary.com&item_name=World+Cup+2026+Wall+Chart&amount=4.99&currency_code=EUR&return=https://autoprod.io/wc-thankyou" class="buy-btn" target="_blank">⚡ Buy Now with PayPal</a>
-    <p style="font-size:0.8rem;color:#5a7a9a;margin-top:10px">Secure payment • 30-day money back guarantee</p>
-  </div>
+  <div class="urgency">🏆 World Cup 2026 STARTS JUNE 11 — Get yours now!</div>
 
-  <div class="features">
-    <div class="feature">
-      <div class="icon">🖨️</div>
-      <h3>A2 Printable</h3>
-      <p>Beautiful at A2 or A3 — print at home or local shop</p>
+  <div class="products">
+    <div class="product-card">
+      <h3>🗺️ Wall Chart</h3>
+      <div class="subtitle">Tournament Bracket & Group Stages</div>
+      <div class="price">€4.99</div>
+      <div class="desc">A2 printable chart with all 48 teams, 12 groups, full bracket. Beautiful design with team flags.</div>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=info@dylancleary.com&item_name=World+Cup+2026+Wall+Chart&amount=4.99&currency_code=EUR" class="buy-btn" target="_blank">Buy Now</a>
     </div>
-    <div class="feature">
-      <div class="icon">🏆</div>
-      <h3>All 48 Teams</h3>
-      <p>12 groups with flags, all 104 matches tracked</p>
-    </div>
-    <div class="feature">
-      <div class="icon">⚽</div>
-      <h3>Full Bracket</h3>
-      <p>Round of 32 through the Final at MetLife</p>
-    </div>
-    <div class="feature">
-      <div class="icon">⚡</div>
-      <h3>Instant Download</h3>
-      <p>PDF delivered immediately after payment</p>
-    </div>
-  </div>
 
-  <div class="how-it-works">
-    <h2>How It Works</h2>
-    <div class="step">
-      <div class="step-num">1</div>
-      <div class="step-text"><strong style="color:#c9a84c">Click Buy Now</strong> — You'll be taken to PayPal's secure checkout</div>
+    <div class="product-card">
+      <h3>🔮 Match Predictor</h3>
+      <div class="subtitle">Predict Every Match</div>
+      <div class="price">€9.99</div>
+      <div class="desc">Fill in predictions for all 104 matches. Score tracking, knockout progression. Compete with friends!</div>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=info@dylancleary.com&item_name=World+Cup+2026+Match+Predictor&amount=9.99&currency_code=EUR" class="buy-btn" target="_blank">Buy Now</a>
     </div>
-    <div class="step">
-      <div class="step-num">2</div>
-      <div class="step-text"><strong style="color:#c9a84c">Complete payment</strong> — €4.99 via PayPal, card, or bank transfer</div>
-    </div>
-    <div class="step">
-      <div class="step-num">3</div>
-      <div class="step-text"><strong style="color:#c9a84c">Download instantly</strong> — You'll be redirected to your PDF download page</div>
-    </div>
-  </div>
 
-  <div class="preview-box">
-    <h2 style="color:#c9a84c;margin-bottom:15px">Product Preview</h2>
-    <img src="product-thumbnail.png" alt="Wall Chart Preview" style="max-width:400px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.3)">
-  </div>
+    <div class="product-card">
+      <h3>📊 Betting Guide</h3>
+      <div class="subtitle">Data-Driven World Cup Bets</div>
+      <div class="price">€14.99</div>
+      <div class="desc">Team analysis, historical form, player stats, value bets per group stage. 40+ pages. Updated for 2026.</div>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=info@dylancleary.com&item_name=World+Cup+2026+Betting+Guide&amount=14.99&currency_code=EUR" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
 
-  <div class="paypal-section">
-    <p style="color:#8ab4d8">You'll be redirected to <strong>PayPal</strong> for secure payment.</p>
-    <p style="color:#5a7a9a;font-size:0.85rem;margin-top:8px">Payment processed by PayPal. Your financial data is never shared.</p>
+    <div class="product-card">
+      <h3>🎨 Kids Activity Pack</h3>
+      <div class="subtitle">World Cup Fun for Children</div>
+      <div class="price">€6.99</div>
+      <div class="desc">Coloring pages, word searches, match trivia, flag matching, World Cup bingo. Ages 6-12. 25+ pages.</div>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=info@dylancleary.com&item_name=World+Cup+2026+Kids+Activity+Pack&amount=6.99&currency_code=EUR" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product-card bundle-card">
+      <h3>🔥 ULTIMATE WORLD CUP BUNDLE</h3>
+      <div class="subtitle">All 4 Products — Best Value</div>
+      <div class="price">€24.99</div>
+      <div class="savings">Save €11.97 vs buying separately</div>
+      <div class="desc">Wall Chart + Match Predictor + Betting Guide + Kids Activity Pack. Everything for World Cup 2026.</div>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=info@dylancleary.com&item_name=World+Cup+2026+Ultimate+Bundle&amount=24.99&currency_code=EUR" class="buy-btn" target="_blank">⚡ Buy Bundle — €24.99</a>
+    </div>
   </div>
 
   <div class="guarantee">
-    <p>30-day money back guarantee • Instant delivery • Print as many copies as you want</p>
-    <p style="margin-top:8px">© 2026 • Contact: info@dylancleary.com</p>
+    <p>🔒 Secure PayPal checkout • Instant email delivery • 30-day money back guarantee</p>
+    <p style="margin-top:8px">© 2026 • <a href="mailto:info@dylancleary.com">info@dylancleary.com</a></p>
   </div>
 </div>
 </body>
